@@ -1,3 +1,7 @@
+# Disable dependency hoisting - this means tsdown cannot find picomatch
+hoist: false
+
+# original
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@latest
   vitest: npm:@voidzero-dev/vite-plus-test@latest
